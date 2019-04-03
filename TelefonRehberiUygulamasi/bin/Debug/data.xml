@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Kişiler">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="Ad" type="xs:string" minOccurs="0" />
+                <xs:element name="Soyad" type="xs:string" minOccurs="0" />
+                <xs:element name="TelefonNo" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Kişiler>
+    <ID>5443e192-632f-4538-b069-708309ed3a2e</ID>
+    <Ad>seyma</Ad>
+    <Soyad>kaya</Soyad>
+    <TelefonNo>8899898</TelefonNo>
+  </Kişiler>
+  <Kişiler>
+    <ID>bf456c58-3829-474e-bb88-180eccc0b582</ID>
+    <Ad>çiğdem </Ad>
+    <Soyad>kaya</Soyad>
+    <TelefonNo>4884848</TelefonNo>
+  </Kişiler>
+  <Kişiler>
+    <ID>e307408e-8673-4fbc-9740-d5298c411f62</ID>
+    <Ad>emir</Ad>
+    <Soyad>kaya</Soyad>
+    <TelefonNo>8488484</TelefonNo>
+  </Kişiler>
+</NewDataSet>
